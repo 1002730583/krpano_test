@@ -79,7 +79,7 @@
 	</action>
 	
 	<action name="mobilescale" autorun="preinit" devices="mobile">
-		mul(stagescale,0.5);
+		mul(stagescale,0.2);
 	</action>
 	
 	<!--提示文字样式-->	
