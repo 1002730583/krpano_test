@@ -144,11 +144,11 @@
 	
 	<!--UI设计  企业logo  -->
 	<layer name="ui_logo" type="image" url="images/logo.png" keep="true" visible="true" 
-		zorder="1" align="lefttop" x="10" y="10" autowidth="" autoheight="" scale="0.4" alpha="1.0"
+		zorder="1" align="lefttop" x="10" y="10" autowidth="" autoheight="" scale="0.6" alpha="1.0"
    		onclick="openurl('http://zlqj.com.cn',_blank);" />	
    
    <!--UI设计  按钮  STAT-->   
-   <layer name="ui_anniu" type="image" url="images/copter_st1.png" keep="true" visible="true" zorder="1" align="left" x="" y="" scale="1.0" altscale="0.6" onhover="showtext('详情',STYLE4);"
+   <layer name="ui_anniu" type="image" url="images/copter_st1.png" keep="true" visible="true" zorder="1" align="left" x="" y="" scale="0.8" altscale="0.6" onhover="showtext('详情',STYLE4);"
    onclick="ui_anniu_action()" />
    	<!--delayedcall(0.5,tween(layer[ui_jieshao].scale,1.0));-->
    <layer name="ui_jieshao" type="image" url="images/000.jpg" keep="true" visible="flase" zorder="2" align="center" x="" y="" scale="0.7" altscale="0.0"  alpha="1.0" onclick="" >
