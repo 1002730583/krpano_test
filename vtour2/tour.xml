@@ -111,7 +111,7 @@
        url="plugins/textfield.swf"
        align="top" x="0" y="10" edge="topcenter"
        html="廖总的小别墅"
-       css="font-family:Arial; font-size:32px; color:#000000;"
+       css="font-family:Arial; font-size:26px; color:#000000;"
        autowidth=""
        autoheight=""
        vcenter="false"
@@ -144,7 +144,7 @@
 	
 	<!--UI设计  企业logo  -->
 	<layer name="ui_logo" type="image" url="images/logo.png" keep="true" visible="true" 
-		zorder="1" align="lefttop" x="10" y="10" autowidth="" autoheight="" scale="0.8" alpha="1.0"
+		zorder="1" align="lefttop" x="10" y="10" autowidth="" autoheight="" scale="0.4" alpha="1.0"
    		onclick="openurl('http://zlqj.com.cn',_blank);" />	
    
    <!--UI设计  按钮  STAT-->   
