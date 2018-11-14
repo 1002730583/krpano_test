@@ -151,14 +151,14 @@
    <layer name="ui_anniu" type="image" url="images/copter_st1.png" keep="true" visible="true" zorder="1" align="left" x="" y="" scale="1.0" altscale="0.6" onhover="showtext('详情',STYLE4);"
    onclick="ui_anniu_action()" />
    	<!--delayedcall(0.5,tween(layer[ui_jieshao].scale,1.0));-->
-   <layer name="ui_jieshao" type="image" url="images/000.jpg" keep="true" visible="flase" zorder="2" align="center" x="" y="" scale="0.0" altscale="0.0"  alpha="1.0" onclick="" >
+   <layer name="ui_jieshao" type="image" url="images/000.jpg" keep="true" visible="flase" zorder="2" align="center" x="" y="" scale="0.7" altscale="0.0"  alpha="1.0" onclick="" >
       
       <layer name="ui_close" type="image" url="images/000.jpg" crop="711|0|37|37" visible="true" zorder="1" align="righttop" x="" y="" scale="1.0"  alpha="1.0" onhover="showtext(关闭,STYLE4);" 
    onclick="ui_jieshao_action();" />
    
-      <layer name="ui_goumai" type="image" url="images/000.jpg" crop="495|429|100|30"  visible="true" zorder="1" align="lefttop" x="495" y="429" scale="1.0"  alpha="1.0" onhover="showtext(点击购买,STYLE4);" onclick="openurl('goumai.html',_blank);" />
+      <layer name="ui_goumai" type="image" url="images/000.jpg" crop="495|429|100|30"  visible="true" zorder="1" align="lefttop" x="495" y="429" scale="0.7"  alpha="1.0" onhover="showtext(点击购买,STYLE4);" onclick="openurl('goumai.html',_blank);" />
    
-     <layer name="ui_xinxin" type="image" url="images/000.jpg" crop="383|429|100|30" visible="true" zorder="1" align="lefttop" x="383" y="429" scale="1.0"  alpha="1.0" onhover="showtext(详细信息,STYLE4);" onclick="openurl('goumai.html',_blank);" />
+     <layer name="ui_xinxin" type="image" url="images/000.jpg" crop="383|429|100|30" visible="true" zorder="1" align="lefttop" x="383" y="429" scale="0.7"  alpha="1.0" onhover="showtext(详细信息,STYLE4);" onclick="openurl('goumai.html',_blank);" />
       
 	</layer>
 	
